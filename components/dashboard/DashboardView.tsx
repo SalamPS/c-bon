@@ -372,7 +372,7 @@ export function DashboardView() {
             {/* Form Modal */}
             {showForm && (
               <div className="fixed inset-0 z-50 bg-black/80 h-screen p-3 md:p-6 flex items-center justify-center">
-                <div className="w-full h-auto md:h-auto md:w-1/3 p-6 bg-gray-800 rounded-lg border border-gray-700 shadow-sm overflow-y-auto">
+                <div className="w-full h-auto md:h-auto md:w-lg p-6 bg-gray-800 rounded-lg border border-gray-700 shadow-sm overflow-y-auto">
                   <div className="flex justify-between items-center mb-4">
                     <h2 className="text-lg font-semibold text-white">Catat Hutang Baru</h2>
                     <button
@@ -394,7 +394,7 @@ export function DashboardView() {
             {/* Edit Form Modal */}
             {editingDebt && (
               <div className="fixed inset-0 z-50 bg-black/80 h-screen p-3 md:p-6 flex items-center justify-center">
-                <div className="w-full h-auto md:h-auto md:w-1/3 p-6 bg-gray-800 rounded-lg border border-gray-700 shadow-sm overflow-y-auto">
+                <div className="w-full h-auto md:h-auto md:w-lg p-6 bg-gray-800 rounded-lg border border-gray-700 shadow-sm overflow-y-auto">
                   <div className="flex justify-between items-center mb-4">
                     <h2 className="text-lg font-semibold text-white">Edit Hutang</h2>
                     <button
