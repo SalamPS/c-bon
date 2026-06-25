@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kasbon - Track Hutang Piutang",
+  title: "C-Bon - Track Hutang Piutang",
   description: "Aplikasi sederhana untuk mencatat hutang piutang pribadi",
   keywords: "hutang, piutang, kasbon, catat",
 };
